@@ -1,5 +1,14 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-.huge-icon {
-    font-size: 600%;
+.service {
+    display: inline-block;
+}
+
+.service-icon {
+    font-size: 6em;
+    width: 120px;
+}
+
+.service-description {
+    text-align: center;
 }

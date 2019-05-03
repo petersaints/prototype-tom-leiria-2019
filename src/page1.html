@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
+
 <body>
     <h1>TOM Leiria 2019 - Challenge 1</h1>
-    <button type="button" class="btn btn-primary btn-lg"><i class="fas fa-utensils huge-icon"></i></button>
+    <div class="service">
+        <button type="button" class="btn btn-primary btn-lg" aria-labelledby="service-food">
+            <i class="fas fa-utensils service-icon"></i>
+        </button>
+        <div id="service-food" class="service-description">Alimentação</div>
+    </div>
+    <div class="service">
+        <button type="button" class="btn btn-primary btn-lg" aria-labelledby="service-hairdresser">
+            <img class="service-icon" src="images/hairdresser.png" alt="Cabeleireiro">
+        </button>
+        <div id="service-hairdresser" class="service-description">Cabeleireiro</div>
+    </div>
 </body>
+
 </html>

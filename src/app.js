@@ -12,3 +12,5 @@ library.add(fas);
 library.add(far);
 library.add(fab);
 dom.watch();
+
+import hairdresserIcon from './images/hairdresser.png';
